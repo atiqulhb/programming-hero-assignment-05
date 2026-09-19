@@ -16,3 +16,12 @@
 body {
   @apply font-sans;
 }
+
+.link-section {
+  h3 {
+    @apply text-xs font-bold text-header tracking-[0.6px] mb-4;
+  }
+  ul {
+    @apply flex flex-col gap-2.5 text-xs text-[#64748B];
+  }
+}

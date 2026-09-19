@@ -12,9 +12,10 @@ export default function Technologies() {
         <h2 className='font-extrabold text-4xl text-header tracking-[-0.9px] mb-2'>Explore the <span className='bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent'>Technologies</span></h2>
         <p className='text-[#64748B] mb-10'>Pick one technology per category to build your ideal stack.</p>
         <div className='grid grid-cols-[3fr_1fr] gap-8'>
-            <div className='flex gap-5 flex-wrap justify-center'>
+            {/* <div className='flex gap-5 flex-wrap justify-center'> */}
+            <div className='grid grid-cols-[repeat(auto-fit,minmax(288px,1fr))] gap-8 items-start'>
                 {data.map(({ id, name, logo, description, type, level, tag, rating}: Data) => (
-                    <div key={id}  className='w-72 p-5 border border-slate-100 rounded-2xl'>
+                    <div key={id} className='p-5 border border-slate-100 rounded-2xl'>
                         <img className='w-7 m-1.5 mb-4' src={logo}/>
                         <h3 className='font-bold text-lg text-header my-1.5'>{name}</h3>
                         <p className='text-xs text-[#64748b] mb-4'>{description}</p>

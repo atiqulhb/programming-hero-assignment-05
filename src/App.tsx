@@ -2,6 +2,7 @@ import NavBar from '@/components/NavBar'
 import Hero from '@/sections/Hero'
 import Technologies from '@/sections/Technologies'
 import './App.css'
+import Footer from './sections/Footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main className='w-[90vw] mx-auto'>
         <Technologies/>
       </main>
+      <Footer/>
     </>
   )
 }
