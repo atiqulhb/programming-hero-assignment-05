@@ -21,8 +21,13 @@ export const data: Data[] = [
         description: "A declarative, component-based JavaScript library for building modern user interfaces.",
         type: "Frontend",
         level: "Beginner-Friendly",
-        tag: "Popular",
-        rating: 4.9
+        rating: 4.9,
+        tag: {
+            title: "Popular",
+            color:"#0EA5E9",
+            backgroundColor: "#F0F9FF",
+            borderColor: "#E0F2FE"
+        }
     },
     {
         id: "02",
@@ -31,8 +36,13 @@ export const data: Data[] = [
         description: "An approachable, performant, and versatile framework for building web user interfaces.",
         type: "Frontend",
         level: "Beginner-Friendly",
-        tag: "Versatile",
-        rating: 4.8
+        rating: 4.8,
+        tag: {
+            title: "Versatile",
+            color:"#059669",
+            backgroundColor: "#ECFDF5",
+            borderColor: "#D1FAE5"
+        }
     },
     {
         id: "03",
@@ -41,8 +51,13 @@ export const data: Data[] = [
         description: "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
         type: "Frontend",
         level: "Intermediate",
-        tag: "Fast",
-        rating: 4.8
+        rating: 4.8,
+        tag: {
+            title: "Fast",
+            color:"#EA580C",
+            backgroundColor: "#FFF7ED",
+            borderColor: "#FFEDD5"
+        }
     },
     {
         id: "04",
@@ -51,8 +66,13 @@ export const data: Data[] = [
         description: "The React framework for full-stack web applications with hybrid static & server rendering.",
         type: "Frontend",
         level: "Intermediate",
-        tag: "SSR / Edge",
-        rating: 4.9
+        rating: 4.9,
+        tag: {
+            title: "SSR / Edge",
+            color:"",
+            backgroundColor: "",
+            borderColor: ""
+        }
     },
     {
         id: "05",
@@ -61,8 +81,14 @@ export const data: Data[] = [
         description: "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
         type: "Backend",
         level: "Intermediate",
-        tag: "Standard",
-        rating: 4.8
+        rating: 4.8,
+        tag: {
+            title: "Standard",
+            color:"#059669",
+            backgroundColor: "#ECFDF5",
+            borderColor: "#D1FAE5"
+        }
+        
     },
     {
         id: "06",
@@ -71,8 +97,13 @@ export const data: Data[] = [
         description: "A powerful, open-source object-relational database system with proven reliability.",
         type: "Database",
         level: "Intermediate",
-        tag: "Top SQL",
-        rating: 4.9
+        rating: 4.9,
+        tag: {
+            title: "Top SQL",
+            color:"#2563EB",
+            backgroundColor: "#EFF6FF",
+            borderColor: "#DBEAFE"
+        }
     },
     {
         id: "07",
@@ -81,8 +112,13 @@ export const data: Data[] = [
         description: "In-memory data structure store used as a high-speed database, cache, and message broker.",
         type: "Database",
         level: "Intermediate",
-        tag: "Cache",
-        rating: 4.8
+        rating: 4.8,
+        tag: {
+            title: "Cache",
+            color:"#DC2626",
+            backgroundColor: "#FEF2F2",
+            borderColor: "#FEE2E2"
+        }
     },
     {
         id: "08",
@@ -91,8 +127,13 @@ export const data: Data[] = [
         description: "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
         type: "Language",
         level: "Beginner-Friendly",
-        tag: "Ubiquitous",
-        rating: 4.9
+        rating: 4.9,
+        tag: {
+            title: "Ubiquitous",
+            color:"#D97706",
+            backgroundColor: "#FFFBEB",
+            borderColor: "#FEF3C7"
+        }
     },
     {
         id: "09",
@@ -101,8 +142,13 @@ export const data: Data[] = [
         description: "A strongly typed programming language that builds on JavaScript for robust tooling.",
         type: "Language",
         level: "Intermediate",
-        tag: "Essential",
-        rating: 4.9 
+        rating: 4.9,
+        tag: {
+            title: "Essential",
+            color:"#0284C7",
+            backgroundColor: "#F0F9FF",
+            borderColor: "#E0F2FE"
+        }
     },
     {
         id: "10",
@@ -111,8 +157,13 @@ export const data: Data[] = [
         description: "A secure, object-oriented programming language designed for portability and scale.",
         type: "Language",
         level: "Intermediate",
-        tag: "Robust",
-        rating: 4.6 
+        rating: 4.6,
+        tag: {
+            title: "Robust",
+            color:"#0284C7",
+            backgroundColor: "#F0F9FF",
+            borderColor: "#E0F2FE"
+        }
     },
     {
         id: "11",
@@ -121,8 +172,13 @@ export const data: Data[] = [
         description: "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
         type: "Styling",
         level: "Beginner-Friendly",
-        tag: "Modern",
-        rating: 4.9
+        rating: 4.9,
+        tag: {
+            title: "Modern",
+            color:"#0891B2",
+            backgroundColor: "#ECFEFF",
+            borderColor: "#CFFAFE"
+        }
     },
     {
         id: "12",
@@ -131,8 +187,13 @@ export const data: Data[] = [
         description: "A platform designed to build, share, and run containerized applications reliably.",
         type: "DevOps",
         level: "Intermediate",
-        tag: "Containers",
-        rating: 4.9
+        rating: 4.9,
+        tag: {
+            title: "Containers",
+            color:"#0284C7",
+            backgroundColor: "#F0F9FF",
+            borderColor: "#E0F2FE"
+        }
     }
 ]
 

@@ -13,6 +13,10 @@
   @apply flex justify-center items-center;
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 body {
   @apply font-sans;
 }

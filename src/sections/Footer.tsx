@@ -1,4 +1,3 @@
-import React from 'react'
 import DevStackIcon from '../assets/logo-text.png'
 
 export default function Footer() {
@@ -7,8 +6,8 @@ export default function Footer() {
         <div className='flex py-7.5 border-b border-slate-100'>
             <div className='flex-2'>
                 <img className='h-7 object-contain' src={DevStackIcon}/>
-                <p className='text-xs text-[#64748B] leading-[19.5px] my-3'>Curated tools, technologies, and resources for developers building modern software.</p>
-                <ul className='flex gap-4 text-xs font-semibold text-[#475569]'>
+                <p className='text-xs text-slate-500 leading-[19.5px] my-3'>Curated tools, technologies, and resources for developers building modern software.</p>
+                <ul className='flex gap-4 text-xs font-semibold text-slate-600'>
                     <li>
                         <a href="">GitHub</a>
                     </li>
@@ -61,9 +60,9 @@ export default function Footer() {
             </div>
         </div>
         <div className='flex items-center justify-between h-20'>
-            <p className='text-xs text-[#94A3B8]'>@2026 DevStack. Allrights reserved.</p>
+            <p className='text-xs text-slate-400'>@2026 DevStack. Allrights reserved.</p>
             
-            <div className='flex items-center justify-between gap-6 text-xs text-[#94A3B8]'>
+            <div className='flex items-center justify-between gap-6 text-xs text-slate-400'>
                 <a>Privacy</a>
                 <a>Terms</a>
             </div>

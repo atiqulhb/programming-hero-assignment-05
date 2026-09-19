@@ -1,4 +1,3 @@
-import React from 'react'
 import BannerStack from '../assets/banner-stack.png'
 
 export default function Hero() {
@@ -13,7 +12,7 @@ export default function Hero() {
             </h1>
             <p className='w-142.5 text-lg leading-[1.63] text-slate-600 mb-10'>Explore frontend, backend, database, and tooling options, compare them side by side, and put together the stack that fits your next project.</p>
             <div className='flex gap-2.5 font-inter text-sm'>
-                  <button className='w-42.5 h-10 flex rounded-lg items-center justify-center bg-[linear-gradient(90deg,#F97316_0%,#EC4899_100%)] font-semibold'>Explore Technologies</button>
+                  <a href="#technologies" className='w-42.5 h-10 flex rounded-lg items-center justify-center bg-[linear-gradient(90deg,#F97316_0%,#EC4899_100%)] font-semibold'>Explore Technologies</a>
                   <button className='w-42.5 h-10 flex rounded-lg items-center justify-center border border-gray-200'>Learn More</button>
             </div>
          </div>
